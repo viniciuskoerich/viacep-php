@@ -21,10 +21,19 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/viniciuskoerich/viacep-php"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "~5.6|~7.0|~8.2",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "~6.2|~7.*"
+        "guzzlehttp/guzzle": "~6.2|~7.*",
+        "viniciuskoerich/viacep-php": "dev-main"
     },
     "require-dev": {
         "codeclimate/php-test-reporter": "0.3.*",

@@ -8,3 +8,4 @@ index.php
 .idea/phpunit.xml
 .idea/vcs.xml
 .idea/viacep-php.iml
+.idea/deployment.xml
