@@ -3,7 +3,7 @@
     "description": "ViaCEP PHP SDK",
     "type": "project",
     "require": {
-        "viniciuskoerich/viacep-php": "master"
+        "viniciuskoerich/viacep-php": "dev-master"
     },
     "repositories": [
         {
