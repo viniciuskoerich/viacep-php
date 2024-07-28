@@ -1,26 +1,10 @@
 {
-    "name": "flyingluscas/viacep-php",
-    "type": "library",
+    "name": "viniciuskoerich/viacep-php",
     "description": "ViaCEP PHP SDK",
-    "keywords": [
-        "flyingluscas",
-        "viacep",
-        "cep",
-        "brazil",
-        "zipcode",
-        "address",
-        "enderecos"
-    ],
-    "homepage": "https://github.com/flyingluscas/viacep-php",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Lucas Pires",
-            "email": "lucas.pires.mattos@gmail.com",
-            "homepage": "https://github.com/flyingluscas",
-            "role": "Developer"
-        }
-    ],
+    "type": "project",
+    "require": {
+        "viniciuskoerich/viacep-php": "dev-main"
+    },
     "repositories": [
         {
             "type": "vcs",
@@ -29,38 +13,9 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {
-        "php": "~5.6|~7.0|~8.2",
-        "ext-json": "*",
-        "guzzlehttp/guzzle": "~6.2|~7.*",
-        "viniciuskoerich/viacep-php": "dev-main"
-    },
-    "require-dev": {
-        "codeclimate/php-test-reporter": "0.3.*",
-        "phpunit/phpunit": "~4.0||~5.0",
-        "squizlabs/php_codesniffer": "~2.3"
-    },
-    "autoload": {
+	"autoload": {
         "psr-4": {
             "FlyingLuscas\\ViaCEP\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "FlyingLuscas\\ViaCEP\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "phpunit",
-        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
-        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
-    },
-    "config": {
-        "sort-packages": true
-    }
 }
