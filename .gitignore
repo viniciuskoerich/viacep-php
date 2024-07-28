@@ -3,3 +3,8 @@ composer.lock
 docs
 vendor
 index.php
+.idea/modules.xml
+.idea/php.xml
+.idea/phpunit.xml
+.idea/vcs.xml
+.idea/viacep-php.iml
