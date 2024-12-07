@@ -3,6 +3,7 @@
     "description": "ViaCEP PHP SDK",
     "type": "project",
     "require": {
+        "php": ">=8.0",
         "viniciuskoerich/viacep-php": "dev-master"
     },
     "repositories": [
@@ -13,9 +14,9 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-	"autoload": {
+    "autoload": {
         "psr-4": {
-            "FlyingLuscas\\ViaCEP\\": "src"
+            "FlyingLuscas\\ViaCEP\\": "src/"
         }
-    },
+    }
 }
