@@ -72,7 +72,7 @@ class Address
      */
     public function fill(array $attributes)
     {
-        if ($attributes) {
+        if (($attributes) and (isset($attributes['cep']))) {
             $this->zipCode = $attributes['cep'];
             $this->street = $attributes['logradouro'];
             $this->complement = $attributes['complemento'];
